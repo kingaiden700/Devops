@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Page</title>
+</head>
+<body>
+<form method="POST" action="reg.php">
+<h1>Registration Form<h1>
+Name:<input type="text" name="Name" required><br><br>
+Email:<input type="text" name="Email" required><br><br>
+Password:<input type="text" name="password" required><br><br>
+Gender:<input type="radio" name="Gender" value="Male">Male
+<input type="radio" name="Gender" value="Female">Female<br><br>
+Language:<input type="checkbox" name="language[]" value="English">English
+<input type="checkbox" name="language[]" value="Spanish">Spanish
+<input type="checkbox" name="language[]" value="French">French<br><br>
+Course:<select name="course">
+<option value="HTML">HTML</option>
+<option value="CSS">CSS</option>
+<option value="JS">JS</option>
+</select><br><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
